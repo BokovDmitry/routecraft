@@ -17,6 +17,7 @@ class Route extends Model
         'days',
         'budget',
         'rating',
+        'stops'
     ];
 
     // Define the relationship to the User model
