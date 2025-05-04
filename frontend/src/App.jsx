@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Features from './components/Features';
 import './App.css';
 
 function App() {
@@ -10,10 +11,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <div className="content">
-        <h1>GG</h1>
-        <p>content</p>
-      </div>
+      <Features />
     </>
   );
 }
