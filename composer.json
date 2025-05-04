@@ -10,7 +10,6 @@
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
-        "symfony/polyfill-php81": "^1.32",
         "symfony/polyfill-php83": "^1.32"
     },
     "require-dev": {
@@ -32,7 +31,10 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
-        }
+        },
+        "exclude-from-classmap": [
+            "vendor/symfony/polyfill-php83/Resources/stubs/"
+        ]
     },
     "scripts": {
         "post-autoload-dump": [
