@@ -6,8 +6,8 @@ import img4 from '../assets/share.jpg';
 
 function Features() {
   return (
-    <section className="features-section text-center py-8 px-8">
-      <h2 className="features-title mb-10">What You Can Do on RouteCraft</h2>
+    <section className="features-section text-center py-12 px-8">
+      <h2 className="features-title mb-12">What You Can Do on RouteCraft</h2>
       <div className="features-grid d-flex justify-content-center flex-wrap gap-8">
         <div className="feature-card">
           <img src={img1} alt="Search Routes" />
